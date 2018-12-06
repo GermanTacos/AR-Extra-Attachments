@@ -1,0 +1,40 @@
+{
+	
+	"bm_menu_barrel2"        		   : "Barrel",
+	"bm_menu_barrel2_plural" 		   : "Barrels",
+	"bm_menu_scopemount"        	   : "Scope Mount",
+	"bm_menu_scopemount_plural" 	   : "Scope Mounts",
+	"bm_menu_receiver_lower"           : "Lower Receiver",
+	"bm_menu_receiver_lower_plural"    : "Lower Receivers",
+	"bm_menu_receiver_upper"           : "Upper Receiver",
+	"bm_menu_receiver_upper_plural"    : "Upper Receivers",
+	"bm_menu_handguard"         	   : "Handguard",
+	"bm_menu_handguard_plural"  	   : "Handguards",
+	"bm_menu_bolt"       			   : "Bolt",
+	"bm_menu_bolt_plural" 	    	   : "Bolts",
+	"bm_menu_rear_sight"        	   : "Rear Iron Sight",
+	"bm_menu_rear_sight_plural" 	   : "Rear Iron Sights",
+	"bm_menu_carry_handle"        	   : "Carry Handle",
+	"bm_menu_carry_handle_plural" 	   : "Carry Handles",
+	"bm_menu_stock_pad"        		   : "Stock Pad",
+	"bm_menu_stock_pad_plural" 	  	   : "Stock Pads",
+	"bm_menu_underbarrel_sight"        : "Underbarrel Sight",
+	"bm_menu_underbarrel_sight_plural" : "Underbarrel Sights",
+	"bm_menu_sound"        			   : "Sound",
+	"bm_menu_sound_plural" 			   : "Sounds",
+	"bm_menu_custom"        		   : "Custom",
+	"bm_menu_custom_plural" 		   : "Customs",
+	"bm_menu_mag_color"        	       : "Magazine Color",
+	"bm_menu_mag_color_plural"		   : "Magazine Colors",
+	"bm_menu_magwell"        		   : "Magwell",
+	"bm_menu_magwell_plural" 		   : "Magwells",
+	"bm_menu_gas_block"        		   : "Gas Block",
+	"bm_menu_gas_block_plural" 	   	   : "Gas Blocks",
+	
+	"bm_wp_wpn_fps_ass_stoy_556_ro_commando"      : "Troy Industries Rear Folding Sight",
+	"bm_wp_wpn_fps_ass_stoy_556_str_commando"     : "Commando Strap",
+	 
+	"bm_wp_wpn_fps_ass_stoy_556_m_steel_25" : "ArmaLite 25 Round Magazine",
+	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30" : "30 Round Curved Magazine"
+	
+}
