@@ -47,6 +47,28 @@
 		<pcs/>
 	</WeaponMod>
 	
+	<!-- Railcovers -->
+	
+	<WeaponMod id="wpn_fps_ass_stoy_556_lrc_m4a1" based_on="wpn_fps_snp_tti_body_receiverlower" type="left_railcover"      unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_lrc_m4a1"  texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
+		<stats concealment="-1"/>
+		<weapons>
+			<value_node value="wpn_fps_ass_stoy_556"/>
+		</weapons>
+		<adds>
+			<value_node value="wpn_fps_ass_stoy_556_rrc_m4a1"/>
+			<value_node value="wpn_fps_ass_stoy_556_trc_m4a1"/>
+			<value_node value="wpn_fps_ass_stoy_556_brc_m4a1"/>
+		</adds>
+		<override/>
+		<pcs/>
+	</WeaponMod>
+	
+	<WeaponMod id="wpn_fps_ass_stoy_556_rrc_m4a1" based_on="wpn_fps_snp_tti_body_receiverlower" type="right_railcover"      unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_rrc_m4a1"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_ass_stoy_556_trc_m4a1" based_on="wpn_fps_snp_tti_body_receiverlower" type="top_railcover"      unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_trc_m4a1"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
+	<WeaponMod id="wpn_fps_ass_stoy_556_brc_m4a1" based_on="wpn_fps_snp_tti_body_receiverlower" type="bottom_railcover"      unit="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_brc_m4a1"  texture_bundle_folder="mods" drop="false" is_a_unlockable="false"/>
+	
 	<!-- SOUND -->
 	
 	<Sounds directory="assets\sounds">
@@ -116,14 +138,48 @@
 		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_curve_30"/>
 		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_curve_30_thq"/>
 		
+		<!-- Railcover PTS -->
+		
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/ar_rc_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/ar_rc_nm"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_brc_m4a1"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_brc_m4a1"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_brc_m4a1"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_brc_m4a1"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_brc_m4a1"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_brc_m4a1_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_rrc_m4a1"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_rrc_m4a1"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_rrc_m4a1"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_rrc_m4a1"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_rrc_m4a1"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_rrc_m4a1_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_lrc_m4a1"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_lrc_m4a1"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_lrc_m4a1"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_lrc_m4a1"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_lrc_m4a1"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_lrc_m4a1_thq"/>
+		
+		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_trc_m4a1"/>
+		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_trc_m4a1"/>
+		<object          path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_trc_m4a1"/>
+		<unit            path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_trc_m4a1"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_trc_m4a1"/>
+		<material_config path="units/mods/weapons/wpn_fps_ass_stoy_556_shared_pts/wpn_fps_ass_stoy_556_trc_m4a1_thq"/>
+		
 		<!-- ICONS -->
 		
 	</AddFiles>
 	
 	<Hooks directory="hooks">
-		<!--<hook file="playertweakdata.lua" source_file="lib/tweak_data/playertweakdata"/>
+		<!--<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
+		<hook file="playertweakdata.lua" source_file="lib/tweak_data/playertweakdata"/>-->
 		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/> 
-		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>-->
+		<hook file="weaponfactorytweakdata_556.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
 	</Hooks>
 	
 </table>

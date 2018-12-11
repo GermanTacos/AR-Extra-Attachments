@@ -30,11 +30,16 @@
 	"bm_menu_magwell_plural" 		   : "Magwells",
 	"bm_menu_gas_block"        		   : "Gas Block",
 	"bm_menu_gas_block_plural" 	   	   : "Gas Blocks",
+	"bm_menu_left_railcover"           : "Rail Cover",
+	"bm_menu_left_railcover_plural"    : "Rail Covers",
 	
 	"bm_wp_wpn_fps_ass_stoy_556_ro_commando"      : "Troy Industries Rear Folding Sight",
 	"bm_wp_wpn_fps_ass_stoy_556_str_commando"     : "Commando Strap",
 	 
 	"bm_wp_wpn_fps_ass_stoy_556_m_steel_25" : "ArmaLite 25 Round Magazine",
+	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30" : "30 Round Curved Magazine"
+	
+	"bm_wp_wpn_fps_ass_stoy_556_m_lrc_m4a1" : "M4A1 Rail Covers",
 	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30" : "30 Round Curved Magazine"
 	
 }

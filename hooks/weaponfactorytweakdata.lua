@@ -1,13 +1,13 @@
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
 --                                                                                      --
---                          ||       |||||||   	   ||||   ||||||             			--
---                         ||||      ||    ||     || ||   ||             				--
---                        ||  ||     ||   ||         ||   ||                           	--
---                       ||||||||    ||||||          ||   |||||                         --
---                      ||      ||   ||   ||         ||       ||                        --
---                     ||        ||  ||    ||        ||       ||					    --
---                    ||          || ||     ||    ||||||| |||||  						--
+--                          ||       |||||||   	   ||||   ||||||        ||    			--
+--                         ||||      ||    ||     || ||   ||            ||				--
+--                        ||  ||     ||   ||         ||   ||            ||           	--
+--                       ||||||||    ||||||          ||   |||||    ||||||||||||        	--
+--                      ||      ||   ||   ||         ||       ||        ||             	--
+--                     ||        ||  ||    ||        ||       ||		||			    --
+--                    ||          || ||     ||    ||||||| |||||  		||				--
 --                                                                                      --
 ------------------------------------------------------------------------------------------
 --																						--
@@ -25,9 +25,9 @@
 ------------------------------------------------------------------------------------------
 
 
----------------------------------------------
-----<A><R><1><5> -Functions- <A><R><1><5>----
----------------------------------------------
+---------------------------------------------------------------
+----<A><R><E><X><T><R><A> -Functions- <A><R><E><X><T><R><A>----
+---------------------------------------------------------------
 
 --- Forbid Setup ---
 function WeaponFactoryTweakData:arpack_setup_forbid( mod_one, mod_two )
@@ -114,66 +114,10 @@ end
 
 Hooks:PostHook( WeaponFactoryTweakData, "init", "AR15ModInit", function(self)
 
-------------------------------------------
-----<A><R><1><5> -Arrays- <A><R><1><5>----
-------------------------------------------
-
---- Stocks ---
-local all_ar15stock = {
-	"wpn_fps_ass_stoy_556_st_m16"
-}
---- Handguard  ---
--- Default length --
-local all_ar15handguard = {
-	"wpn_fps_ass_stoy_556_hg_ar15",
-	"wpn_fps_ass_stoy_556_hg_m16",
-	"wpn_fps_ass_stoy_556_hg_m16a2",
-	"wpn_fps_ass_stoy_556_hg_m607",
-	"wpn_fps_ass_stoy_556_hg_m4",
-	"wpn_fps_ass_stoy_556_hg_m4a1"
-}
-
---- Barrel ---
--- Default length --
-local all_ar15barrel = {
-	"wpn_fps_ass_stoy_556_ba_ar15",
-	"wpn_fps_ass_stoy_556_ba_m16a1",
-	"wpn_fps_ass_stoy_556_ba_m16a2",
-	"wpn_fps_ass_stoy_556_ba_car15",
-	"wpn_fps_ass_stoy_556_ba_m733",
-	"wpn_fps_ass_stoy_556_ba_m4",
-	"wpn_fps_ass_stoy_556_ba_m4_short"
-}
-
---- Front Sights ---
-local all_ar15fo = {
-	"wpn_fps_ass_stoy_556_fo_ak9"
-}
---- Gas Blocks ---
-local all_ar15gb = {
-	"wpn_fps_ass_stoy_556_gb_ar15",
-	"wpn_fps_ass_stoy_556_gb_m16a1",
-	"wpn_fps_ass_stoy_556_gb_m16a4"
-}
-
---- Barrel Extensions --
-local all_ar15ext = {
-	"wpn_fps_upg_ns_ass_smg_large",
-	"wpn_fps_upg_ns_ass_smg_medium",
-	"wpn_fps_upg_ns_ass_smg_small",
-	"wpn_fps_upg_ns_ass_smg_firepig",
-	"wpn_fps_upg_ns_ass_smg_stubby",
-	"wpn_fps_upg_ns_ass_smg_tank",
-	"wpn_fps_upg_ns_ass_pbs1",
-	"wpn_fps_upg_ass_ns_jprifles",
-	"wpn_fps_upg_ass_ns_linear",
-	"wpn_fps_upg_ass_ns_surefire",
-	"wpn_fps_upg_ass_ns_battle",
-	"wpn_fps_ass_stoy_556_md_m16"
-}
-
---- Gadgets (Flashlights/Lasers) ---
-local all_ar15fl = {
+------------------------------------------------------------
+----<A><R><E><X><T><R><A> -Arrays- <A><R><E><X><T><R><A>----
+------------------------------------------------------------
+local all_arextrafl = {
 	"wpn_fps_upg_fl_ass_smg_sho_peqbox",
 	"wpn_fps_upg_fl_ass_smg_sho_surefire",
 	"wpn_fps_upg_fl_ass_peq15",
@@ -181,129 +125,43 @@ local all_ar15fl = {
 	"wpn_fps_upg_fl_ass_utg",
 	"wpn_fps_addon_ris"
 }
-
---- Sights ---
-local all_ar15sight = {
-	"wpn_fps_upg_o_specter",
-	"wpn_fps_upg_o_aimpoint",
-	"wpn_fps_upg_o_aimpoint_2",
-	"wpn_fps_upg_o_docter",
-	"wpn_fps_upg_o_eotech",
-	"wpn_fps_upg_o_t1micro",
-	"wpn_fps_upg_o_cmore",
-	"wpn_fps_upg_o_acog",
-	"wpn_fps_upg_o_cs",
-	"wpn_fps_upg_o_eotech_xps",
-	"wpn_fps_upg_o_reflex",
-	"wpn_fps_upg_o_rx01",
-	"wpn_fps_upg_o_rx30",
-	"wpn_fps_upg_o_spot"
-}
-local nonacog_arsight = {
-	"wpn_fps_upg_o_specter",
-	"wpn_fps_upg_o_aimpoint",
-	"wpn_fps_upg_o_aimpoint_2",
-	"wpn_fps_upg_o_docter",
-	"wpn_fps_upg_o_eotech",
-	"wpn_fps_upg_o_t1micro",
-	"wpn_fps_upg_o_cmore",
-	"wpn_fps_upg_o_cs",
-	"wpn_fps_upg_o_eotech_xps",
-	"wpn_fps_upg_o_reflex",
-	"wpn_fps_upg_o_rx01",
-	"wpn_fps_upg_o_rx30",
-	"wpn_fps_upg_o_spot"
-}
-
-
---- Grips ---
-local all_ar15grips = {
-	"wpn_fps_ass_stoy_556_pg_m16"
-}
-
 --- Compatibility Array Insertion ---
 
------------------------------------------
-----<A><R><1><5> -CAFCW- <A><R><1><5>----
------------------------------------------
-if BeardLib.Utils:FindMod("gsup") then
-	local AR15SneakySuppressorPack = {
-		"wpn_fps_ass_ns_g_sup3",
-		"wpn_fps_ass_ns_g_sup4",
-		"wpn_fps_ass_ns_g_sup5"
-	}
-	for id, part_id in pairs(AR15SneakySuppressorPack) do
-		table.insert(self.wpn_fps_ass_stoy_556.uses_parts, part_id)
-		table.insert(all_ar15ext, part_id)
+-----------------------------------------------------------
+----<A><R><E><X><T><R><A> -CAFCW- <A><R><E><X><T><R><A>----
+-----------------------------------------------------------
+
+--------------------------------------------------------------
+----<A><R><E><X><T><R><A> -Override- <A><R><E><X><T><R><A>----
+--------------------------------------------------------------
+for id, fl_id in pairs(all_arextrafl) do
+	if fl_id ~= "wpn_fps_addon_ris" then
+		self.parts.wpn_fps_ass_stoy_556_lrc_m4a1.override[fl_id] = {override={wpn_fps_ass_stoy_556_rrc_m4a1={unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}}}
 	end
 end
-
-if BeardLib.Utils:FindMod("Tromix Barrel-Ext") then
-	table.insert(self.wpn_fps_ass_stoy_556.uses_parts, "wpn_fps_upg_ns_ass_smg_tromix")	
-	table.insert(all_ar15ext, "wpn_fps_upg_ns_ass_smg_tromix")
-end
-
-if BeardLib.Utils:FindMod("M82 Muzzle Brake") then
-	table.insert(all_ar15ext, "wpn_fps_upg_ns_m82")
-	table.insert(all_ar15ext, "wpn_fps_upg_ns_aw50")
-end
-
-
---------------------------------------------
-----<A><R><1><5> -Override- <A><R><1><5>----
---------------------------------------------
-
---- Barrels ---
-for id, ba_id in pairs(all_ar15barrel) do
-	self:arpack_check_override( "part", ba_id )
-end
---- Handguard ---
-for id, hg_id in pairs(all_ar15handguard) do
-	self:arpack_check_override( "part", hg_id )
-end
---GB override--
-for id, gb_id in pairs(all_ar15gb) do
-	self.parts.wpn_fps_ass_stoy_556_hg_m607.override[gb_id] = {a_obj="a_gb_car15"}
-	self.parts.wpn_fps_ass_stoy_556_hg_m4.override[gb_id] 	= {a_obj="a_gb_car15"}
-	self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override[gb_id] = {a_obj="a_gb_car15"}
-end
-
-----------------------------------------
-----<A><R><1><5> -Adds- <A><R><1><5>----
-----------------------------------------
+----------------------------------------------------------
+----<A><R><E><X><T><R><A> -Adds- <A><R><E><X><T><R><A>----
+----------------------------------------------------------
 	
--------------------------------------------
-----<A><R><1><5> -Forbids- <A><R><1><5>----
--------------------------------------------
+-------------------------------------------------------------
+----<A><R><E><X><T><R><A> -Forbids- <A><R><E><X><T><R><A>----
+-------------------------------------------------------------
 
-------------------------------------------
-----<A><R><1><5> -Stance- <A><R><1><5>----
-------------------------------------------
+------------------------------------------------------------
+----<A><R><E><X><T><R><A> -Stance- <A><R><E><X><T><R><A>----
+------------------------------------------------------------
 
---- Vanilla sights ---
--- non-acoc, default sights --
-for i, o_id in pairs(nonacog_arsight) do
-	self.parts[o_id].stance_mod.wpn_fps_ass_stoy_556 = {translation = Vector3(0, 7, -3.7)}
-end
--- other sights --
-self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_ass_stoy_556 			  = deep_clone(self.parts.wpn_fps_upg_o_acog.stance_mod.wpn_fps_snp_tti)
-self.parts.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_ass_stoy_556 		   	  = deep_clone(self.parts.wpn_fps_upg_o_45rds.stance_mod.wpn_fps_snp_tti)
-self.parts.wpn_fps_upg_o_xpsg33_magnifier.stance_mod.wpn_fps_ass_stoy_556 = deep_clone(self.parts.wpn_fps_upg_o_xpsg33_magnifier.stance_mod.wpn_fps_snp_tti)
-self.parts.wpn_fps_upg_o_45rds_v2.stance_mod.wpn_fps_ass_stoy_556 		  = deep_clone(self.parts.wpn_fps_upg_o_45rds_v2.stance_mod.wpn_fps_snp_tti)
-
-------------------------------------------
-----<A><R><1><5> -Tweaks- <A><R><1><5>----
-------------------------------------------
+------------------------------------------------------------
+----<A><R><E><X><T><R><A> -Tweaks- <A><R><E><X><T><R><A>----
+------------------------------------------------------------
 
 --- Barrel Extensions ---
-self.parts.wpn_fps_ass_stoy_556_md_dummy.pcs = nil
-
-------------------------------------------
-----<A><R><1><5> -CLONES- <A><R><1><5>----
-------------------------------------------
+------------------------------------------------------------
+----<A><R><E><X><T><R><A> -CLONES- <A><R><E><X><T><R><A>----
+------------------------------------------------------------
 
 ---------------------------------------
-----<A><R><1><5> -WIP- <A><R><1><5>----
----------------------------------------
+----<A><R><E><X><T><R><A> -WIP- <A><R><E><X><T><R><A>----
+---------------------------------------------------------
 
 end )
