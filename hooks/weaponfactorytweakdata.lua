@@ -117,14 +117,7 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "AREXTRAModInit", function(self)
 ------------------------------------------------------------
 ----<A><R><E><X><T><R><A> -Arrays- <A><R><E><X><T><R><A>----
 ------------------------------------------------------------
-local all_arextrafl = {
-	"wpn_fps_upg_fl_ass_smg_sho_peqbox",
-	"wpn_fps_upg_fl_ass_smg_sho_surefire",
-	"wpn_fps_upg_fl_ass_peq15",
-	"wpn_fps_upg_fl_ass_laser",
-	"wpn_fps_upg_fl_ass_utg",
-	"wpn_fps_addon_ris"
-}
+
 --- Compatibility Array Insertion ---
 
 -----------------------------------------------------------

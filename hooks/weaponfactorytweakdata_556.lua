@@ -56,7 +56,14 @@ local all_ar15handguard = {
 --- Barrel Extensions --
 
 --- Gadgets (Flashlights/Lasers) ---
-
+local all_ar15fl = {
+	"wpn_fps_upg_fl_ass_smg_sho_peqbox",
+	"wpn_fps_upg_fl_ass_smg_sho_surefire",
+	"wpn_fps_upg_fl_ass_peq15",
+	"wpn_fps_upg_fl_ass_laser",
+	"wpn_fps_upg_fl_ass_utg",
+	"wpn_fps_addon_ris"
+}
 
 --- Sights ---
 
@@ -75,7 +82,7 @@ local all_ar15handguard = {
 --------------------------------------------
 ----<A><R><1><5> -Override- <A><R><1><5>----
 --------------------------------------------
-for id, fl_id in pairs(all_arextrafl) do
+for id, fl_id in pairs(all_ar15fl) do
 	if fl_id ~= "wpn_fps_addon_ris" then
 		self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override[fl_id] = {override={wpn_fps_ass_stoy_556_rrc_m4a1={unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}}, a_obj="a_fl_m4a1"}
 	end
