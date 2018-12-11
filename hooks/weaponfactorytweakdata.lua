@@ -112,7 +112,7 @@ function WeaponFactoryTweakData:ar15_write_error( func, cause, error_id, value  
 	end
 end 
 
-Hooks:PostHook( WeaponFactoryTweakData, "init", "AR15ModInit", function(self)
+Hooks:PostHook( WeaponFactoryTweakData, "init", "AREXTRAModInit", function(self)
 
 ------------------------------------------------------------
 ----<A><R><E><X><T><R><A> -Arrays- <A><R><E><X><T><R><A>----
@@ -134,11 +134,7 @@ local all_arextrafl = {
 --------------------------------------------------------------
 ----<A><R><E><X><T><R><A> -Override- <A><R><E><X><T><R><A>----
 --------------------------------------------------------------
-for id, fl_id in pairs(all_arextrafl) do
-	if fl_id ~= "wpn_fps_addon_ris" then
-		self.parts.wpn_fps_ass_stoy_556_lrc_m4a1.override[fl_id] = {override={wpn_fps_ass_stoy_556_rrc_m4a1={unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}}}
-	end
-end
+
 ----------------------------------------------------------
 ----<A><R><E><X><T><R><A> -Adds- <A><R><E><X><T><R><A>----
 ----------------------------------------------------------
