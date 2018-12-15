@@ -45,7 +45,7 @@
 			<wpn_fps_ass_stoy_556_dr_m16a1 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_stoy_556_dr_m16a2 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_stoy_556_dr_m16a3 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
-		<override/>
+		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_stoy_556"/>
 		</weapons>
@@ -81,7 +81,7 @@
 			<wpn_fps_ass_stoy_556_dr_m16a1 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_stoy_556_dr_m16a2 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_stoy_556_dr_m16a3 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
-		<override/>
+		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_stoy_556"/>
 		</weapons>
@@ -109,7 +109,7 @@
 			<wpn_fps_ass_stoy_556_dr_m16a1 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_stoy_556_dr_m16a2 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_stoy_556_dr_m16a3 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
-		<override/>
+		</override>
 		<weapons>
 			<value_node value="wpn_fps_ass_stoy_556"/>
 		</weapons>
