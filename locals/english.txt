@@ -49,6 +49,7 @@
 	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30" : "30 Round Curved Magazine"
 	
 	"bm_wp_wpn_fps_ass_stoy_556_lrc_m4a1" 	: "M4A1 Rail Covers",
-	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30" : "30 Round Curved Magazine"
+	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30" : "30 Round Curved Magazine",
 	
+	"bm_wp_wpn_fps_smg_stoy_919_so_r6s"           : "Rainbow Six Siege Sounds"
 }
