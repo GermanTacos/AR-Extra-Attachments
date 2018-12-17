@@ -1,5 +1,5 @@
 {
-	
+
 	"bm_menu_barrel2"        		   : "Barrel",
 	"bm_menu_barrel2_plural" 		   : "Barrels",
 	"bm_menu_scopemount"        	   : "Scope Mount",
@@ -32,28 +32,29 @@
 	"bm_menu_gas_block_plural" 	   	   : "Gas Blocks",
 	"bm_menu_left_railcover"           : "Rail Cover",
 	"bm_menu_left_railcover_plural"    : "Rail Covers",
-	
+
 	"bm_wp_wpn_fps_ass_stoy_556_ro_commando"      : "Troy Industries Rear Folding Sight",
 	"bm_wp_wpn_fps_ass_stoy_556_str_commando"     : "Commando Strap",
-	
+
 	"bm_wp_wpn_fps_ass_stoy_556_hg_mk18"          : "Daniel Defense RIS II Handguard",
 	"bm_wp_wpn_fps_ass_stoy_556_pg_mk18"          : "Magpul MOE Grip",
 	"bm_wp_wpn_fps_ass_stoy_556_st_mk18"          : "B5 Systems SOPMOD Stock",
-	
+
 	"bm_wp_wpn_fps_ass_stoy_556_hg_t65"           : "Type 65 Handguard",
 	"bm_wp_wpn_fps_ass_stoy_556_st_t65"           : "Type 65 Stock",
-	
+
 	"bm_wp_wpn_fps_ass_stoy_556_hg_t86"           : "Type 86 Handguard",
-	
+
 	"bm_wp_wpn_fps_ass_stoy_556_hg_ddm4"          : "DDM4 Railed Handguard",
 	"bm_wp_wpn_fps_ass_stoy_556_st_ddm4"          : "Magpul MOE Carbine Stock",
-	
+
 	"bm_wp_wpn_fps_ass_stoy_556_hg_moe"           : "Magpul MOE Carbine Handguard",
-	 
+
 	"bm_wp_wpn_fps_ass_stoy_556_m_steel_25" : "ArmaLite 25 Round Magazine",
 	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30" : "30 Round Curved Magazine",
 	"bm_wp_wpn_fps_ass_stoy_556_m_pmag_30"  : "Magpul PMAG",
-	
+
 	"bm_wp_wpn_fps_ass_stoy_556_lrc_m4a1" 	: "KAC Ribbed Rail Covers"
-	
+
+	"bm_wp_wpn_fps_smg_stoy_919_so_r6s"           : "Rainbow Six Siege Sounds"
 }
