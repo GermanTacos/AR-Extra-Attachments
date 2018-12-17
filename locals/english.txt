@@ -44,11 +44,16 @@
 	"bm_wp_wpn_fps_ass_stoy_556_st_t65"           : "Type 65 Stock",
 	
 	"bm_wp_wpn_fps_ass_stoy_556_hg_t86"           : "Type 86 Handguard",
+	
+	"bm_wp_wpn_fps_ass_stoy_556_hg_ddm4"          : "DDM4 Railed Handguard",
+	"bm_wp_wpn_fps_ass_stoy_556_st_ddm4"          : "Magpul MOE Carbine Stock",
+	
+	"bm_wp_wpn_fps_ass_stoy_556_hg_moe"           : "Magpul MOE Carbine Handguard",
 	 
 	"bm_wp_wpn_fps_ass_stoy_556_m_steel_25" : "ArmaLite 25 Round Magazine",
-	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30" : "30 Round Curved Magazine"
+	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30" : "30 Round Curved Magazine",
+	"bm_wp_wpn_fps_ass_stoy_556_m_pmag_30"  : "Magpul PMAG",
 	
-	"bm_wp_wpn_fps_ass_stoy_556_lrc_m4a1" 	: "M4A1 Rail Covers",
-	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30" : "30 Round Curved Magazine"
+	"bm_wp_wpn_fps_ass_stoy_556_lrc_m4a1" 	: "KAC Ribbed Rail Covers"
 	
 }
