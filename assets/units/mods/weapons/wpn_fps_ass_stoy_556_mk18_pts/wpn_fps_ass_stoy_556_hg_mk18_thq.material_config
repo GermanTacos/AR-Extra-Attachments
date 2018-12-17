@@ -1,6 +1,6 @@
 <materials version="3" group="weapon_tti">
 	<material name="tti_receiver_lowerr" render_template="generic:DIFFUSE_TEXTURE:NORMALMAP" version="2">
-		<diffuse_texture file="units/mods/weapons/wpn_fps_ass_stoy_556_mk18_pts/mk18_std_df" />
-		<bump_normal_texture file="units/mods/weapons/wpn_fps_ass_stoy_556_mk18_pts/mk18_std_nm" />
+		<diffuse_texture file="units/mods/weapons/wpn_fps_ass_stoy_556_mk18_pts/mk18_parts_df" />
+		<bump_normal_texture file="units/mods/weapons/wpn_fps_ass_stoy_556_mk18_pts/mk18_parts_nm" />
 	</material>
 </materials>

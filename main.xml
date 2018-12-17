@@ -249,8 +249,8 @@
 		
 		<!-- MK18 PTS -->
 		
-		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_mk18_pts/mk18_std_df"/>
-		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_mk18_pts/mk18_std_nm"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_mk18_pts/mk18_parts_df"/>
+		<texture         path="units/mods/weapons/wpn_fps_ass_stoy_556_mk18_pts/mk18_parts_nm"/>
 		
 		<cooked_physics  path="units/mods/weapons/wpn_fps_ass_stoy_556_mk18_pts/wpn_fps_ass_stoy_556_hg_mk18"/>
 		<model           path="units/mods/weapons/wpn_fps_ass_stoy_556_mk18_pts/wpn_fps_ass_stoy_556_hg_mk18"/>
