@@ -33,6 +33,7 @@
 	"bm_menu_left_railcover"           : "Rail Cover",
 	"bm_menu_left_railcover_plural"    : "Rail Covers",
 
+	"bm_wp_wpn_fps_ass_stoy_556_fo_commando"      : "Troy Industries Front Folding Sight",
 	"bm_wp_wpn_fps_ass_stoy_556_ro_commando"      : "Troy Industries Rear Folding Sight",
 	"bm_wp_wpn_fps_ass_stoy_556_str_commando"     : "Commando Strap",
 

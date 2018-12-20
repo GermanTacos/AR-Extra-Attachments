@@ -1,0 +1,6 @@
+<materials version="3" group="weapon_tti">
+	<material name="tti_receiver_lowerr" render_template="generic:DEPTH_SCALING:DIFFUSE_TEXTURE:NORMALMAP" version="2">
+		<diffuse_texture file="units/mods/weapons/wpn_fps_ass_stoy_556_commando_pts/commando_sight_df" />
+		<bump_normal_texture file="units/mods/weapons/wpn_fps_ass_stoy_556_commando_pts/commando_sight_nm" />
+	</material>
+</materials>
