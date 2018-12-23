@@ -51,6 +51,11 @@ local all_ar15handguard = {
 --- Front Sights ---
 
 --- Gas Blocks ---
+local all_ar15gb = {
+	"wpn_fps_ass_stoy_556_gb_ar15",
+	"wpn_fps_ass_stoy_556_gb_m16a1",
+	"wpn_fps_ass_stoy_556_gb_m16a4"
+}
 
 
 --- Barrel Extensions --
@@ -86,6 +91,14 @@ for id, fl_id in pairs(all_ar15fl) do
 	if fl_id ~= "wpn_fps_addon_ris" then
 		self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override[fl_id] = {override={wpn_fps_ass_stoy_556_rrc_m4a1={unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"}}, a_obj="a_fl_m4a1"}
 	end
+end
+--GB override--
+for id, gb_id in pairs(all_ar15gb) do
+	self.parts.wpn_fps_ass_stoy_556_hg_t86.override[gb_id] = {a_obj="a_gb_t86"}
+	self.parts.wpn_fps_ass_stoy_556_hg_t65.override[gb_id] 	= {a_obj="a_gb_t65"}
+	self.parts.wpn_fps_ass_stoy_556_hg_moe.override[gb_id] = {a_obj="a_gb_car15"}
+	self.parts.wpn_fps_ass_stoy_556_hg_mk18.override[gb_id] = {a_obj="a_gb_mk18"}
+	self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override[gb_id] = {a_obj="a_gb_ddm4"}
 end
 ----------------------------------------
 ----<A><R><1><5> -Adds- <A><R><1><5>----

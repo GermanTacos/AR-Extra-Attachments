@@ -19,7 +19,6 @@
 	<WeaponMod id="wpn_fps_ass_stoy_556_ro_commando"  based_on="wpn_fps_snp_tti_body_receiverlower" type="sight_rear" unit="units/mods/weapons/wpn_fps_ass_stoy_556_commando_pts/wpn_fps_ass_stoy_556_ro_commando"   texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats concealment="1"/>
 		<forbids>
-			<value_node value="wpn_fps_ass_stoy_556_ro_ar15"/>
 			<value_node value="wpn_fps_ass_stoy_556_ro_m16"/>
 			<value_node value="wpn_fps_ass_stoy_556_ro_m16a1"/>
 			<value_node value="wpn_fps_ass_stoy_556_ro_m16a2"/>
@@ -29,19 +28,24 @@
 		<weapons>
 			<value_node value="wpn_fps_ass_stoy_556"/>
 		</weapons>
+		<override>
+			<wpn_fps_ass_stoy_556_ro_ar15 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+		</override>
 		<pcs/>
 	</WeaponMod>
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_fo_commando"  based_on="wpn_fps_snp_tti_body_receiverlower" type="sight_front" unit="units/mods/weapons/wpn_fps_ass_stoy_556_commando_pts/wpn_fps_ass_stoy_556_fo_commando"   texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats concealment="1"/>
 		<forbids>
-			<value_node value="wpn_fps_ass_stoy_556_gb_ar15"/>
 			<value_node value="wpn_fps_ass_stoy_556_gb_m16a1"/>
 			<value_node value="wpn_fps_ass_stoy_556_gb_m16a4"/>
 		</forbids>
 		<weapons>
 			<value_node value="wpn_fps_ass_stoy_556"/>
 		</weapons>
+		<override>
+			<wpn_fps_ass_stoy_556_gb_ar15 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
+		</override>
 		<pcs/>
 	</WeaponMod>
 	
@@ -168,6 +172,7 @@
 		<weapons>
 			<value_node value="wpn_fps_ass_stoy_556"/>
 		</weapons>
+		<override/>
 		<pcs/>
 	</WeaponMod>
 	
@@ -436,8 +441,8 @@
 	</AddFiles>
 	
 	<Hooks directory="hooks">
-		<!--<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
-		<hook file="playertweakdata.lua" source_file="lib/tweak_data/playertweakdata"/>-->
+		<hook file="weapontweakdata.lua" source_file="lib/tweak_data/weapontweakdata"/>
+		<!--<hook file="playertweakdata.lua" source_file="lib/tweak_data/playertweakdata"/>-->
 		<hook file="weaponfactorytweakdata.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/> 
 		<hook file="weaponfactorytweakdata_556.lua" source_file="lib/tweak_data/weaponfactorytweakdata"/>
 	</Hooks>
