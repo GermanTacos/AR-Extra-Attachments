@@ -1,13 +1,13 @@
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------------------------------
 --                                                                                      --
---                          ||       |||||||   	   ||||   ||||||        ||    			--
---                         ||||      ||    ||     || ||   ||            ||				--
---                        ||  ||     ||   ||         ||   ||            ||           	--
---                       ||||||||    ||||||          ||   |||||    ||||||||||||        	--
---                      ||      ||   ||   ||         ||       ||        ||             	--
---                     ||        ||  ||    ||        ||       ||		||			    --
---                    ||          || ||     ||    ||||||| |||||  		||				--
+--                          ||       |||||||   	        ||    							--
+--                         ||||      ||    ||           ||								--
+--                        ||  ||     ||   ||            ||    							--
+--                       ||||||||    ||||||        ||||||||||||        					--
+--                      ||      ||   ||   ||            ||    							--
+--                     ||        ||  ||    ||     		||    							--
+--                    ||          || ||     ||     		||    							--
 --                                                                                      --
 ------------------------------------------------------------------------------------------
 --																						--
@@ -127,7 +127,12 @@ Hooks:PostHook( WeaponFactoryTweakData, "init", "AREXTRAModInit", function(self)
 --------------------------------------------------------------
 ----<A><R><E><X><T><R><A> -Override- <A><R><E><X><T><R><A>----
 --------------------------------------------------------------
-
+self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_lrc_m4a1 = {}
+self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_lrc_m4a1.adds = deep_clone(self.parts.wpn_fps_ass_stoy_556_lrc_m4a1.adds)
+table.insert(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_lrc_m4a1.adds, "wpn_fps_ass_stoy_556_lrc_ddm4")
+table.insert(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_lrc_m4a1.adds, "wpn_fps_ass_stoy_556_rrc_ddm4")
+table.insert(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_lrc_m4a1.adds, "wpn_fps_ass_stoy_556_trc_ddm4")
+table.insert(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_lrc_m4a1.adds, "wpn_fps_ass_stoy_556_brc_ddm4")
 ----------------------------------------------------------
 ----<A><R><E><X><T><R><A> -Adds- <A><R><E><X><T><R><A>----
 ----------------------------------------------------------
