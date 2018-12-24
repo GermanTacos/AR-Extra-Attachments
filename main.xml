@@ -53,10 +53,8 @@
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_hg_mk18"     based_on="wpn_fps_snp_tti_body_receiverlower" type="handguard"       unit="units/mods/weapons/wpn_fps_ass_stoy_556_mk18_pts/wpn_fps_ass_stoy_556_hg_mk18" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats concealment="-2"/>
-		<adds>
-		</adds>
-		<forbids>
-		</forbids>
+		<adds/>
+		<forbids/>
 		<override>
 			<wpn_fps_ass_stoy_556_dr_ar15  unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_stoy_556_dr_m16a1 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
@@ -137,10 +135,8 @@
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_hg_ddm4"     based_on="wpn_fps_snp_tti_body_receiverlower" type="handguard"       unit="units/mods/weapons/wpn_fps_ass_stoy_556_ddm4_pts/wpn_fps_ass_stoy_556_hg_ddm4" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats concealment="-2"/>
-		<adds>
-		</adds>
-		<forbids>
-		</forbids>
+		<adds/>
+		<forbids/>
 		<override>
 			<wpn_fps_ass_stoy_556_dr_ar15  unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>
 			<wpn_fps_ass_stoy_556_dr_m16a1 unit="units/payday2/weapons/wpn_upg_dummy/wpn_upg_dummy"/>

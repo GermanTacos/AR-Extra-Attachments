@@ -47,7 +47,12 @@ local all_ar15handguard = {
 
 --- Barrel ---
 -- Default length --
-
+-- Short -- 
+local ar15shortbarrel = { 
+	"wpn_fps_ass_stoy_556_ba_m4",
+	"wpn_fps_ass_stoy_556_ba_car15",
+	"wpn_fps_ass_stoy_556_ba_m733"
+}
 --- Front Sights ---
 
 --- Gas Blocks ---
@@ -93,12 +98,24 @@ for id, fl_id in pairs(all_ar15fl) do
 	end
 end
 --GB override--
+for id, ba_id in pairs(ar15shortbarrel) do
+	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_mk18 = {}
+	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_ddm4 = {}
+	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_mk18.override = deep_clone(self.parts.wpn_fps_ass_stoy_556_hg_mk18.override)
+	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_ddm4.override = deep_clone(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override)
+	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_mk18.forbids = {"wpn_fps_ass_stoy_556_fo_commando"} --deep_clone(self.parts.wpn_fps_ass_stoy_556_hg_mk18.forbids) or {}
+	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_ddm4.forbids = {"wpn_fps_ass_stoy_556_fo_commando"} --deep_clone(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.forbids) or {}
+end
 for id, gb_id in pairs(all_ar15gb) do
 	self.parts.wpn_fps_ass_stoy_556_hg_t86.override[gb_id] = {a_obj="a_gb_t86"}
 	self.parts.wpn_fps_ass_stoy_556_hg_t65.override[gb_id] 	= {a_obj="a_gb_t65"}
 	self.parts.wpn_fps_ass_stoy_556_hg_moe.override[gb_id] = {a_obj="a_gb_car15"}
 	self.parts.wpn_fps_ass_stoy_556_hg_mk18.override[gb_id] = {a_obj="a_gb_mk18"}
 	self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override[gb_id] = {a_obj="a_gb_ddm4"}
+	for id, ba_id in pairs(ar15shortbarrel) do
+		self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_mk18.override[gb_id] = {unit="units/mods/weapons/wpn_fps_ass_stoy_556_commando_pts/wpn_fps_ass_stoy_556_fo_commando"}
+		self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_ddm4.override[gb_id] = {unit="units/mods/weapons/wpn_fps_ass_stoy_556_commando_pts/wpn_fps_ass_stoy_556_fo_commando"}
+	end
 end
 ----------------------------------------
 ----<A><R><1><5> -Adds- <A><R><1><5>----
