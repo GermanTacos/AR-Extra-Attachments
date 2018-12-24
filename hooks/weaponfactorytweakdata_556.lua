@@ -130,6 +130,7 @@ for id, hg_id in pairs(all_ar15handguard) do
 		table.insert(self.parts[hg_id].forbids, "wpn_fps_ass_stoy_556_fo_commando")
 	end
 end
+table.insert(self.parts.wpn_fps_ass_stoy_556_ca_m16a3.forbids, "wpn_fps_ass_stoy_556_ro_commando")
 table.insert(self.parts.wpn_fps_ass_stoy_556_ur_ar15.forbids, "wpn_fps_ass_stoy_556_ro_commando")
 table.insert(self.parts.wpn_fps_ass_stoy_556_ur_m16a2.forbids, "wpn_fps_ass_stoy_556_ro_commando")
 table.insert(self.parts.wpn_fps_ass_stoy_556_ur_m16a1.forbids, "wpn_fps_ass_stoy_556_ro_commando")
