@@ -133,6 +133,7 @@ table.insert(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_5
 table.insert(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_lrc_m4a1.adds, "wpn_fps_ass_stoy_556_rrc_ddm4")
 table.insert(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_lrc_m4a1.adds, "wpn_fps_ass_stoy_556_trc_ddm4")
 table.insert(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_lrc_m4a1.adds, "wpn_fps_ass_stoy_556_brc_ddm4")
+
 ----------------------------------------------------------
 ----<A><R><E><X><T><R><A> -Adds- <A><R><E><X><T><R><A>----
 ----------------------------------------------------------
