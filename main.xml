@@ -459,6 +459,21 @@
 		
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_smg_stoy_919_so_r6s"/>
 		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_so_r6s"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_ddm4"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_mk18"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_moe"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_t65"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_hg_t86"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_lrc_m4a1"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_m_curve_30"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_m_pmag_30"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_m_steel_25"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_pg_mk18"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_ro_commando"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_st_ddm4"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_st_mk18"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_st_t65"/>
+		<texture         path="guis/dlcs/mods/textures/pd2/blackmarket/icons/mods/wpn_fps_ass_stoy_556_str_commando"/>
 		
 	</AddFiles>
 	
