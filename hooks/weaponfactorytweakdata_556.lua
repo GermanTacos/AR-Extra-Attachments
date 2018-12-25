@@ -105,6 +105,11 @@ for id, gb_id in pairs(all_ar15gb) do
 		self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_ddm4.override[gb_id] = {unit="units/mods/weapons/wpn_fps_ass_stoy_556_commando_pts/wpn_fps_ass_stoy_556_fo_commando"}
 	end
 end
+self.parts.wpn_fps_ass_stoy_556_hg_t86.override.wpn_fps_ass_stoy_556_fo_commando_a4 = {a_obj="a_troy_a4gb_t86"}
+self.parts.wpn_fps_ass_stoy_556_hg_t65.override.wpn_fps_ass_stoy_556_fo_commando_a4 	= {a_obj="a_troy_a4gb_t65"}
+self.parts.wpn_fps_ass_stoy_556_hg_moe.override.wpn_fps_ass_stoy_556_fo_commando_a4 = {a_obj="a_troy_a4gb_car15"}
+self.parts.wpn_fps_ass_stoy_556_hg_mk18.override.wpn_fps_ass_stoy_556_fo_commando_a4 = {a_obj="a_troy_a4gb_mk18"}
+self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_fo_commando_a4 = {a_obj="a_troy_a4gb_ddm4"}
 ----------------------------------------
 ----<A><R><1><5> -Adds- <A><R><1><5>----
 ----------------------------------------
@@ -118,6 +123,7 @@ for id, hg_id in pairs(all_ar15handguard) do
 		table.insert(self.parts[hg_id].forbids, "wpn_fps_ass_stoy_556_fo_commando")
 	end
 end
+table.insert(self.parts.wpn_fps_ass_stoy_556_gb_m16a4.forbids, "wpn_fps_ass_stoy_556_fo_commando")
 table.insert(self.parts.wpn_fps_ass_stoy_556_ca_m16a3.forbids, "wpn_fps_ass_stoy_556_ro_commando")
 table.insert(self.parts.wpn_fps_ass_stoy_556_ur_ar15.forbids, "wpn_fps_ass_stoy_556_ro_commando")
 table.insert(self.parts.wpn_fps_ass_stoy_556_ur_m16a2.forbids, "wpn_fps_ass_stoy_556_ro_commando")
