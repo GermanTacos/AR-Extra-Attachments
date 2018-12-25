@@ -224,6 +224,7 @@
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_m_steel_25"   based_on="wpn_fps_snp_tti_m_standard"         type="magazine"   unit="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_steel_25" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats extra_ammo_new="5" concealment="-1"/>
+		<bullet_objects amount="0" prefix="g_bullet_" />
 		<weapons>
 			<value_node value="wpn_fps_ass_stoy_556"/>
 		</weapons>
@@ -232,6 +233,7 @@
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_m_curve_30"   based_on="wpn_fps_snp_tti_m_standard"         type="magazine"   unit="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_curve_30" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats extra_ammo="5" recoil="1" concealment="-3"/>
+		<bullet_objects amount="0" prefix="g_bullet_" />
 	<!--<weapons>
 			<value_node value="wpn_fps_ass_stoy_556"/>
 		</weapons>-->
@@ -240,6 +242,7 @@
 	
 	<WeaponMod id="wpn_fps_ass_stoy_556_m_pmag_30"   based_on="wpn_fps_snp_tti_m_standard"         type="magazine"   unit="units/mods/weapons/wpn_fps_ass_stoy_556_mag_pts/wpn_fps_ass_stoy_556_m_pmag_30" texture_bundle_folder="mods" drop="false" is_a_unlockable="true">
 		<stats extra_ammo="5" recoil="0" concealment="-2"/>
+		<bullet_objects amount="0" prefix="g_bullet_" />
 		<weapons>
 			<value_node value="wpn_fps_ass_stoy_556"/>
 		</weapons>
