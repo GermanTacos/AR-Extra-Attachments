@@ -110,6 +110,7 @@ self.parts.wpn_fps_ass_stoy_556_hg_t65.override.wpn_fps_ass_stoy_556_fo_commando
 self.parts.wpn_fps_ass_stoy_556_hg_moe.override.wpn_fps_ass_stoy_556_fo_commando_a4 = {a_obj="a_troy_a4gb_car15"}
 self.parts.wpn_fps_ass_stoy_556_hg_mk18.override.wpn_fps_ass_stoy_556_fo_commando_a4 = {a_obj="a_troy_a4gb_mk18"}
 self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_fo_commando_a4 = {a_obj="a_troy_a4gb_ddm4"}
+self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override.wpn_fps_ass_stoy_556_fo_commando = {a_obj="a_fo_m4a1"}
 ----------------------------------------
 ----<A><R><1><5> -Adds- <A><R><1><5>----
 ----------------------------------------

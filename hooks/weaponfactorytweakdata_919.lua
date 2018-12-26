@@ -104,7 +104,6 @@ self.parts.wpn_fps_smg_stoy_919_ba_r0635.override.wpn_fps_ass_stoy_556_hg_ddm4.f
 for id, gb_id in pairs(all_ar9gb) do
 	self.parts.wpn_fps_ass_stoy_556_hg_t86.override[gb_id] = {a_obj="a_gb_t86"}
 	self.parts.wpn_fps_ass_stoy_556_hg_t65.override[gb_id] 	= {a_obj="a_gb_t65"}
-	self.parts.wpn_fps_ass_stoy_556_hg_moe.override[gb_id] = {a_obj="a_gb_car15"}
 	self.parts.wpn_fps_ass_stoy_556_hg_mk18.override[gb_id] = {a_obj="a_gb_mk18"}
 	self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override[gb_id] = {a_obj="a_gb_ddm4"}
 	self.parts.wpn_fps_smg_stoy_919_ba_r0635.override.wpn_fps_ass_stoy_556_hg_mk18.override[gb_id] = {unit="units/mods/weapons/wpn_fps_ass_stoy_556_commando_pts/wpn_fps_ass_stoy_556_fo_commando"}
@@ -119,6 +118,9 @@ end
 -------------------------------------------
 table.insert(self.parts.wpn_fps_smg_stoy_919_hg_r0635.forbids, "wpn_fps_ass_stoy_556_lrc_m4a1")
 table.insert(self.parts.wpn_fps_smg_stoy_919_hg_r0635.forbids, "wpn_fps_ass_stoy_556_fo_commando")
+table.insert(self.parts.wpn_fps_smg_stoy_919_ba_r0635.forbids, "wpn_fps_ass_stoy_556_hg_t86")
+table.insert(self.parts.wpn_fps_smg_stoy_919_ba_r0635.forbids, "wpn_fps_ass_stoy_556_hg_t65")
+table.insert(self.parts.wpn_fps_smg_stoy_919_ba_r0635.forbids, "wpn_fps_ass_stoy_556_hg_moe")
 ------------------------------------------
 ----<A><R><1><5> -Stance- <A><R><1><5>----
 ------------------------------------------
