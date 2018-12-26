@@ -128,7 +128,10 @@ table.insert(self.parts.wpn_fps_smg_stoy_919_ba_r0635.forbids, "wpn_fps_ass_stoy
 ------------------------------------------
 ----<A><R><1><5> -Tweaks- <A><R><1><5>----
 ------------------------------------------
-
+self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_hg_mk18  = {stats = {spread = -1,recoil = 1,concealment = -1}}
+self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_hg_moe  = {stats = {spread = 1,recoil = -1,concealment = -1}}
+self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_hg_ddm4  = {stats = {spread = 0,recoil = 2,concealment = -3}}
+self.wpn_fps_smg_stoy_919.override.wpn_fps_ass_stoy_556_hg_moe  = {stats = {spread = 1,recoil = 0,concealment = -1}}
 ------------------------------------------
 ----<A><R><1><5> -CLONES- <A><R><1><5>----
 ------------------------------------------
