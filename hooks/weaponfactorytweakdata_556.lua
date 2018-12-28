@@ -91,8 +91,8 @@ for id, ba_id in pairs(ar15shortbarrel) do
 	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_ddm4 = {}
 	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_mk18.override = deep_clone(self.parts.wpn_fps_ass_stoy_556_hg_mk18.override)
 	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_ddm4.override = deep_clone(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override)
-	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_mk18.forbids = {"wpn_fps_ass_stoy_556_fo_commando"} --deep_clone(self.parts.wpn_fps_ass_stoy_556_hg_mk18.forbids) or {}
-	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_ddm4.forbids = {"wpn_fps_ass_stoy_556_fo_commando"} --deep_clone(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.forbids) or {}
+	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_mk18.forbids = {"wpn_fps_ass_stoy_556_fo_commando","wpn_fps_ass_stoy_556_gb_m16a4"} --deep_clone(self.parts.wpn_fps_ass_stoy_556_hg_mk18.forbids) or {}
+	self.parts[ba_id].override.wpn_fps_ass_stoy_556_hg_ddm4.forbids = {"wpn_fps_ass_stoy_556_fo_commando","wpn_fps_ass_stoy_556_gb_m16a4"} --deep_clone(self.parts.wpn_fps_ass_stoy_556_hg_ddm4.forbids) or {}
 end
 for id, gb_id in pairs(all_ar15gb) do
 	self.parts.wpn_fps_ass_stoy_556_hg_t86.override[gb_id] = {a_obj="a_gb_t86"}
@@ -111,6 +111,7 @@ self.parts.wpn_fps_ass_stoy_556_hg_moe.override.wpn_fps_ass_stoy_556_fo_commando
 self.parts.wpn_fps_ass_stoy_556_hg_mk18.override.wpn_fps_ass_stoy_556_fo_commando_a4 = {a_obj="a_troy_a4gb_mk18"}
 self.parts.wpn_fps_ass_stoy_556_hg_ddm4.override.wpn_fps_ass_stoy_556_fo_commando_a4 = {a_obj="a_troy_a4gb_ddm4"}
 self.parts.wpn_fps_ass_stoy_556_hg_m4a1.override.wpn_fps_ass_stoy_556_fo_commando = {a_obj="a_fo_m4a1"}
+self.parts.wpn_fps_ass_stoy_556_ro_commando.override.wpn_fps_ass_stoy_556_stance_a3 = {stance_mod = {wpn_fps_ass_stoy_556 = {translation = Vector3(0, 0, 0)}}}
 ----------------------------------------
 ----<A><R><1><5> -Adds- <A><R><1><5>----
 ----------------------------------------
