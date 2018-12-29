@@ -52,12 +52,16 @@
 	"bm_wp_wpn_fps_ass_stoy_556_st_ddm4"          : "Magpul MOE Carbine Stock",
 
 	"bm_wp_wpn_fps_ass_stoy_556_hg_moe"           : "Magpul MOE Carbine Handguard",
+	
+	"bm_wp_wpn_fps_ass_stoy_556_hg_service"       : "Service Rifle Handguard",
+	"bm_wp_wpn_fps_ass_stoy_556_pg_service"       : "Service Rifle Grip",
+	"bm_wp_wpn_fps_ass_stoy_556_st_service"       : "Service Rifle Stock",
 
-	"bm_wp_wpn_fps_ass_stoy_556_m_steel_25" : "ArmaLite 25 Round Magazine",
-	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30" : "30 Round Curved Magazine",
-	"bm_wp_wpn_fps_ass_stoy_556_m_pmag_30"  : "Magpul PMAG",
+	"bm_wp_wpn_fps_ass_stoy_556_m_steel_25" 	  : "ArmaLite 25 Round Magazine",
+	"bm_wp_wpn_fps_ass_stoy_556_m_curve_30"	      : "30 Round Curved Magazine",
+	"bm_wp_wpn_fps_ass_stoy_556_m_pmag_30"  	  : "Magpul PMAG",
 
-	"bm_wp_wpn_fps_ass_stoy_556_lrc_m4a1" 	: "KAC Ribbed Rail Covers",
+	"bm_wp_wpn_fps_ass_stoy_556_lrc_m4a1" 		  : "KAC Ribbed Rail Covers",
 
 	"bm_wp_wpn_fps_ass_stoy_556_so_r6s"           : "Rainbow Six Siege Sounds",
 	"bm_wp_wpn_fps_smg_stoy_919_so_r6s"           : "Rainbow Six Siege Sounds"
